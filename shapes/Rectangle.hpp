@@ -1,13 +1,15 @@
-//
-//  Rectangle.hpp
-//  shapes
-//
-//  Created by Jess on 11/12/20.
-//
+#pragma once
 
-#ifndef Rectangle_hpp
-#define Rectangle_hpp
-
-#include <stdio.h>
-
-#endif /* Rectangle_hpp */
+namespace ShapeAssessment
+{
+    class Rectangle
+    {
+    public:
+        Rectangle(float length, float width);
+        
+        float getArea();
+    private:
+        float mLength;
+        float mWidth;
+    };
+}

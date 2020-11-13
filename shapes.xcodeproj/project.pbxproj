@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C8AE394D255E27C900F47D6C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AE394C255E27C900F47D6C /* main.cpp */; };
 		C8AE3956255E282800F47D6C /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AE3954255E282800F47D6C /* Circle.cpp */; };
+		C8AE395A255E2A1E00F47D6C /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AE3958255E2A1E00F47D6C /* Rectangle.cpp */; };
+		C8AE395E255E2A2B00F47D6C /* Square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AE395C255E2A2B00F47D6C /* Square.cpp */; };
+		C8AE3962255E2A3500F47D6C /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AE3960255E2A3500F47D6C /* Triangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		C8AE394C255E27C900F47D6C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C8AE3954255E282800F47D6C /* Circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
 		C8AE3955255E282800F47D6C /* Circle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
+		C8AE3958255E2A1E00F47D6C /* Rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		C8AE3959255E2A1E00F47D6C /* Rectangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rectangle.hpp; sourceTree = "<group>"; };
+		C8AE395C255E2A2B00F47D6C /* Square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Square.cpp; sourceTree = "<group>"; };
+		C8AE395D255E2A2B00F47D6C /* Square.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Square.hpp; sourceTree = "<group>"; };
+		C8AE3960255E2A3500F47D6C /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		C8AE3961255E2A3500F47D6C /* Triangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 				C8AE394C255E27C900F47D6C /* main.cpp */,
 				C8AE3954255E282800F47D6C /* Circle.cpp */,
 				C8AE3955255E282800F47D6C /* Circle.hpp */,
+				C8AE3958255E2A1E00F47D6C /* Rectangle.cpp */,
+				C8AE3959255E2A1E00F47D6C /* Rectangle.hpp */,
+				C8AE395C255E2A2B00F47D6C /* Square.cpp */,
+				C8AE395D255E2A2B00F47D6C /* Square.hpp */,
+				C8AE3960255E2A3500F47D6C /* Triangle.cpp */,
+				C8AE3961255E2A3500F47D6C /* Triangle.hpp */,
 			);
 			path = shapes;
 			sourceTree = "<group>";
@@ -123,8 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8AE395E255E2A2B00F47D6C /* Square.cpp in Sources */,
 				C8AE394D255E27C900F47D6C /* main.cpp in Sources */,
 				C8AE3956255E282800F47D6C /* Circle.cpp in Sources */,
+				C8AE3962255E2A3500F47D6C /* Triangle.cpp in Sources */,
+				C8AE395A255E2A1E00F47D6C /* Rectangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

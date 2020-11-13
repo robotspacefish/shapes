@@ -1,8 +1,17 @@
-//
-//  Rectangle.cpp
-//  shapes
-//
-//  Created by Jess on 11/12/20.
-//
-
 #include "Rectangle.hpp"
+
+#define _USE_MATH_DEFINES
+
+#include <cmath>
+
+namespace ShapeAssessment
+{
+    Rectangle::Rectangle(float length, float width) : mLength(length), mWidth(width)
+    {
+    }
+
+    float Rectangle::getArea()
+    {
+        return mLength * mWidth;
+    }
+}
