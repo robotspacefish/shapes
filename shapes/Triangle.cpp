@@ -1,4 +1,5 @@
 #include "Triangle.hpp"
+#include "Shape.hpp"
 
 namespace ShapeAssessment
 {

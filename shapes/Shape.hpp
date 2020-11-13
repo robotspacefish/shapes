@@ -1,13 +1,16 @@
-//
-//  Shape.hpp
-//  shapes
-//
-//  Created by Jess on 11/12/20.
-//
+#pragma once
 
-#ifndef Shape_hpp
-#define Shape_hpp
-
-#include <stdio.h>
-
-#endif /* Shape_hpp */
+namespace ShapeAssessment
+{
+    class Shape
+    {
+    public:
+        virtual float getArea() = 0;
+        
+        void setValue1(float v);
+        void setValue2(float v);
+    protected:
+        float mValue1;
+        float mValue2;
+    };
+}
