@@ -3,15 +3,19 @@
 #include <iostream>
 
 #include "Circle.hpp"
+#include "Triangle.hpp"
 
 using namespace ShapeAssessment;
 
 int main() {
-    Circle c1(5.0f);
-    Circle c2(20.0f);
-
-    std::cout << c1.getArea() << std::endl;
-    std::cout << c2.getArea() << std::endl;
+//    Circle c1(5.0f);
+//    Circle c2(20.0f);
+//
+//    std::cout << c1.getArea() << std::endl;
+//    std::cout << c2.getArea() << std::endl;
     
+    Triangle t1(4.0f, 5.0f);
+    
+    std::cout << t1.getArea() << std::endl;
     return 0;
 }
