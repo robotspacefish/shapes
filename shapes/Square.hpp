@@ -1,14 +1,14 @@
 #pragma once
 
+#include "Shape.hpp"
+
 namespace ShapeAssessment
 {
-    class Square
+    class Square : public Shape
     {
     public:
         Square(float side);
         
         float getArea();
-    private:
-        float mSide;
     };
 }
