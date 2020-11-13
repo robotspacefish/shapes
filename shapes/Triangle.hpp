@@ -7,8 +7,7 @@ namespace ShapeAssessment
     class Triangle : public Shape
     {
     public:
-//        Triangle(float height, float base);
-        Triangle() : Shape{height, base};
+        Triangle(float height, float base);
         
         float getArea();
     };

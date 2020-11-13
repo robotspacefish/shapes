@@ -5,8 +5,6 @@ namespace ShapeAssessment
     class Shape
     {
     public:
-//        Shape(float value1, float value2);
-        
         virtual float getArea() = 0;
         
         void setValue1(float v);
