@@ -1,15 +1,13 @@
 #pragma once
 
+#include "Shape.hpp"
+
 namespace ShapeAssessment
 {
-    class Triangle
+    class Triangle : Shape
     {
     public:
         Triangle(float height, float base);
-        
         float getArea();
-    private:
-        float mHeight;
-        float mBase;
     };
 }
