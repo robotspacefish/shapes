@@ -1,13 +1,14 @@
-//
-//  Square.hpp
-//  shapes
-//
-//  Created by Jess on 11/12/20.
-//
+#pragma once
 
-#ifndef Square_hpp
-#define Square_hpp
-
-#include <stdio.h>
-
-#endif /* Square_hpp */
+namespace ShapeAssessment
+{
+    class Square
+    {
+    public:
+        Square(float side);
+        
+        float getArea();
+    private:
+        float mSide;
+    };
+}
