@@ -1,14 +1,14 @@
 #pragma once
 
+#include "Shape.hpp"
+
 namespace ShapeAssessment
 {
-    class Circle
+    class Circle : public Shape
     {
     public:
         Circle(float radius);
 
         float getArea();
-    private:
-        float mRadius;
     };
 }

@@ -7,12 +7,12 @@
 namespace ShapeAssessment
 {
     Circle::Circle(float radius)
-        : mRadius(radius)
     {
+        this->setValue1(radius);
     }
 
     float Circle::getArea()
     {
-        return mRadius * mRadius * (float)M_PI;
+        return mValue1 * mValue1 * (float)M_PI;
     }
 }
