@@ -1,15 +1,15 @@
-#include "Square.hpp"
-
-namespace ShapeAssessment
-{
-//    Square::Square(float side)
+//#include "Square.hpp"
+//
+//namespace ShapeAssessment
+//{
+////    Square::Square(float side)
+////    {
+////        this->setValue1(side);
+////        this->setValue2(side);
+////    }
+//
+//    float Square::getArea()
 //    {
-//        this->setValue1(side);
-//        this->setValue2(side);
+//        return mValue1 * mValue2;
 //    }
-
-    float Square::getArea()
-    {
-        return mValue1 * mValue2;
-    }
-}
+//}
