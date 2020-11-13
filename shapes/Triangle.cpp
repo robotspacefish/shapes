@@ -3,10 +3,8 @@
 
 namespace ShapeAssessment
 {
-    Triangle::Triangle(float height, float base)
-    {
-        this->setValue1(height);
-        this->setValue2(base);
+    Triangle::Triangle(float height, float base) : Shape(height, base)
+    {   
     }
 
     float Triangle::getArea()

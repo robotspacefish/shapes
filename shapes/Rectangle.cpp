@@ -1,12 +1,10 @@
 #include "Rectangle.hpp"
-
+#include "Shape.hpp"
 
 namespace ShapeAssessment
 {
-    Rectangle::Rectangle(float length, float width)
+    Rectangle::Rectangle(float length, float width) : Shape(length, width)
     {
-        this->setValue1(length);
-        this->setValue2(width);
     }
 
     float Rectangle::getArea()

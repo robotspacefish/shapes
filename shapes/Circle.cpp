@@ -3,12 +3,12 @@
 #define _USE_MATH_DEFINES
 
 #include <cmath>
+#include "Shape.hpp"
 
 namespace ShapeAssessment
 {
-    Circle::Circle(float radius)
+    Circle::Circle(float radius) : Shape(radius)
     {
-        this->setValue1(radius);
     }
 
     float Circle::getArea()

@@ -1,25 +1,14 @@
-#pragma once
-
-//#include "Rectangle.hpp"
+//#pragma once
+//
+//#include "Shape.hpp"
 //
 //namespace ShapeAssessment
 //{
-//    class Square : public Rectangle
+//    class Square : public Shape
 //    {
 //    public:
 //        Square(float side);
+//
+//        float getArea();
 //    };
 //}
-
-#include "Shape.hpp"
-
-namespace ShapeAssessment
-{
-    class Square : public Shape
-    {
-    public:
-        Square(float side);
-
-        float getArea();
-    };
-}
