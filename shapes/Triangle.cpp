@@ -12,6 +12,6 @@ namespace ShapeAssessment
 
     float Triangle::getArea()
     {
-        return 0.5 * mHeight * mBase;;
+        return 0.5 * mHeight * mBase;
     }
 }
