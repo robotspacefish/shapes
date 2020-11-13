@@ -12,6 +12,7 @@
 		C8AE395A255E2A1E00F47D6C /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AE3958255E2A1E00F47D6C /* Rectangle.cpp */; };
 		C8AE395E255E2A2B00F47D6C /* Square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AE395C255E2A2B00F47D6C /* Square.cpp */; };
 		C8AE3962255E2A3500F47D6C /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AE3960255E2A3500F47D6C /* Triangle.cpp */; };
+		C8AE3966255E392900F47D6C /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AE3964255E392900F47D6C /* Shape.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		C8AE395D255E2A2B00F47D6C /* Square.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Square.hpp; sourceTree = "<group>"; };
 		C8AE3960255E2A3500F47D6C /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
 		C8AE3961255E2A3500F47D6C /* Triangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; };
+		C8AE3964255E392900F47D6C /* Shape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shape.cpp; sourceTree = "<group>"; };
+		C8AE3965255E392900F47D6C /* Shape.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shape.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				C8AE395D255E2A2B00F47D6C /* Square.hpp */,
 				C8AE3960255E2A3500F47D6C /* Triangle.cpp */,
 				C8AE3961255E2A3500F47D6C /* Triangle.hpp */,
+				C8AE3964255E392900F47D6C /* Shape.cpp */,
+				C8AE3965255E392900F47D6C /* Shape.hpp */,
 			);
 			path = shapes;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 				C8AE3956255E282800F47D6C /* Circle.cpp in Sources */,
 				C8AE3962255E2A3500F47D6C /* Triangle.cpp in Sources */,
 				C8AE395A255E2A1E00F47D6C /* Rectangle.cpp in Sources */,
+				C8AE3966255E392900F47D6C /* Shape.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

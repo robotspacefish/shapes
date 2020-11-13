@@ -4,10 +4,12 @@
 
 namespace ShapeAssessment
 {
-    class Triangle : Shape
+    class Triangle : public Shape
     {
     public:
-        Triangle(float height, float base);
+//        Triangle(float height, float base);
+        Triangle() : Shape{height, base};
+        
         float getArea();
     };
 }
