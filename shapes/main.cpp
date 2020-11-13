@@ -1,14 +1,17 @@
-//
-//  main.cpp
-//  shapes
-//
-//  Created by Jess on 11/12/20.
-//
-
+#define _USE_MATH_DEFINES
+#include <cmath>
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include "Circle.hpp"
+
+using namespace ShapeAssessment;
+
+int main() {
+    Circle c1(5.0f);
+    Circle c2(20.0f);
+
+    std::cout << c1.getArea() << std::endl;
+    std::cout << c2.getArea() << std::endl;
+    
     return 0;
 }
